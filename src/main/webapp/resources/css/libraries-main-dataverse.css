@@ -1,0 +1,277 @@
+/* Dataverse styles */
+.bg-dataverse {
+	/* Was #C55B28 orange */
+	background: #ff7700;
+}
+.bg-dataset {
+	/* Was #337AB7 blue */
+	background: #0000ff;
+}
+.bg-file {
+	/* Was #F5F5F5 gray */
+	background: #dedede;
+}
+.bg-warning,
+#dv-main div.emptyResults.bg-warning {
+	background: #FF7700;
+}
+
+.navbar-mitlib .navbar-nav li.accountName a:hover,
+.navbar-mitlib .navbar-nav li.accountName a:focus {
+	background-color: #ff0000;
+}
+.navbar-mitlib .navbar-nav li.accountName a:hover .text-danger,
+.navbar-mitlib .navbar-nav li.accountName a:focus .text-danger {
+	color: #000;
+}
+.navbar-mitlib .navbar-nav li.accountName a:hover .label-danger,
+.navbar-mitlib .navbar-nav li.accountName a:focus .label-danger {
+	background-color: #000;
+	color: #fff;
+}
+#navbarFixed form.navbar-form-link a.ui-commandlink {
+	color: #fff;
+}
+#navbarFixed form.navbar-form-link a.ui-commandlink:hover,
+#navbarFixed form.navbar-form-link a.ui-commandlink:focus {
+	color: #fff;
+	background-color: #0000ff;
+}
+.text-dataverse {
+	color: #ff7700;
+}
+.text-dataset {
+	color: #0000ff;
+}
+.text-file {
+	color: #dedede;
+}
+.text-danger {
+	color: #ff0000;
+}
+.text-info {
+	color: #0000ff;
+}
+.text-muted {
+	color: #767676;
+}
+.label-primary {
+	background: #0000ff;
+	color: #ffffff;
+}
+.label-warning {
+	background: #ff7700;
+	color: #000000;
+}
+.label-danger {
+	background: #ff0000;
+	color: #000000;
+}
+table[id$="resultsTable"] td > div.datasetResult {
+	border-color: #0000ff;
+}
+.ui-widget-content a {
+	color: #0000ff;
+}
+
+/* Header area */
+.wrap-header-mit {
+	float: right;
+	width: auto;
+}
+@media (max-width: 992px) {
+	.wrap-header-mit {
+		display: none !important;
+	}
+}
+.wrap-header-mit .link-logo-mit {
+	height: 50px;
+	padding: 10px 15px 10px 20px;
+	margin-left: 15px;
+	margin-right: -15px;
+}
+.wrap-header-mit .link-logo-mit:hover,
+.wrap-header-mit .link-logo-mit:focus {
+	background: white;
+}
+.wrap-header-mit .link-logo-mit:hover rect.color,
+.wrap-header-mit .link-logo-mit:focus rect.color {
+	fill: #000000;
+}
+#dataverse-header-block form {
+	margin: inherit;
+}
+#messagePanel .container {
+	background: #ffffff;
+}
+#messagePanel div.messagePanel {
+	/* Need to see if we can target this "only if empty?" */
+	margin-top: inherit;
+}
+#breadCrumbPanel .container {
+	background: #ffffff;
+}
+#breadcrumbNavBlock {
+	margin-top: inherit;
+}
+#breadcrumbNavBlock .breadcrumbCarrot {
+	color: #767676;
+}
+/* Content area */
+div#content {
+	background: #fff;
+	color: #000;
+	padding: 15px;
+}
+
+/* Footer */
+#dataverseFooter {
+	margin-top: inherit;
+}
+footer#footer {
+	position: inherit;
+}
+footer#footer .wrap-version {
+	background: #fff;
+	color: #595959;
+	padding-bottom: 5px;
+}
+.wrap-footer {
+	background-image: url("/resources/images/mit/vi-shape7-tp.svg");
+}
+.wrap-footer.footer-slim {
+	padding: 1.5rem 0;
+}
+.wrap-footer-institute {
+	padding: 20px 0;
+}
+footer#footer .wrap-social img {
+	background: #fff none repeat scroll 0 0;
+	border-radius: 50%;
+	height: 2em;
+	padding: 0.2em;
+	width: 2em;
+}
+.wrap-outer-footer-institute .footer-info-institute {
+  -webkit-box-align: flex-end;
+      -ms-flex-align: flex-end;
+          align-items: flex-end;
+}
+
+/* Dataverse hangs styles on the ID, so we do too. */
+#navbarFixed .navbar-brand,
+#navbarFixed .icon-dataverse {
+	color: #ff7700;
+}
+#navbarFixed a:hover .navbar-brand,
+#navbarFixed a:focus .navbar-brand,
+#navbarFixed a:hover .icon-dataverse,
+#navbarFixed a:focus .icon-dataverse {
+	color: #000;
+	background-color: #ff7700;
+}
+
+/* Custom "MITlib" style for navbar */
+.navbar-mitlib {
+	background: #000;
+	border-color: #000;
+}
+.navbar-mitlib a {
+	text-decoration: none;
+}
+.navbar-mitlib .container {
+	background: #000 url("/resources/images/mit/vi-shape7-tp.svg") no-repeat 0 65%;
+}
+.navbar-mitlib .navbar-brand {
+	color: #ff7700;
+}
+.navbar-mitlib .navbar-text {
+	color: #fff;
+}
+.navbar-mitlib .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-mitlib .navbar-nav > li > a:hover,
+.navbar-mitlib .navbar-nav > li > a:focus {
+	color: #ffffff;
+	background-color: #0000ff;
+}
+.navbar-mitlib .navbar-nav > .active > a,
+.navbar-mitlib .navbar-nav > .active > a:hover,
+.navbar-mitlib .navbar-nav > .active > a:focus {
+	color: #000000;
+	background-color: #00c8ff;
+}
+.navbar-mitlib .navbar-nav > .disabled > a,
+.navbar-mitlib .navbar-nav > .disabled > a:hover,
+.navbar-mitlib .navbar-nav > .disabled > a:focus {
+	color: #ffd409;
+	background-color: #ffd40a;
+}
+.navbar-mitlib .navbar-nav > .open > a,
+.navbar-mitlib .navbar-nav > .open > a:hover,
+.navbar-mitlib .navbar-nav > .open > a:focus {
+	color: #000000;
+	background-color: #00c8ff;
+}
+@media (max-width: 1024) {
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > .dropdown-header {
+		border-color: #000;
+	}
+	.navbar-mitlib .navbar-nav .open .dropdown-menu .divider {
+		background-color: #000;
+	}
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+	}
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #ffffff;
+		background-color: #0000ff;
+	}
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #000000;
+		background-color: #00c8ff;
+	}
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > .disabled > a,
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+	.navbar-mitlib .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+		color: #ffd409;
+		background-color: #ffd40a;
+	}
+}
+.navbar-mitlib .navbar-toggle {
+	border-color: #ffffff;
+}
+.navbar-mitlib .navbar-toggle:hover,
+.navbar-mitlib .navbar-toggle:focus {
+	background-color: #767676;
+}
+.navbar-mitlib .navbar-toggle .icon-bar {
+	background-color: #ffd40d;
+}
+.navbar-mitlib .navbar-collapse,
+.navbar-mitlib .navbar-form {
+	border-color: #000000;
+}
+.navbar-mitlib .navbar-link {
+	color: #ffffff;
+}
+.navbar-mitlib .navbar-link:hover {
+	color: #ffffff;
+}
+.navbar-mitlib .btn-link {
+	color: #ffffff;
+}
+.navbar-mitlib .btn-link:hover,
+.navbar-mitlib .btn-link:focus {
+	color: #ffffff;
+}
+.navbar-mitlib .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-mitlib .btn-link:hover,
+.navbar-mitlib .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-mitlib .btn-link:focus {
+	color: #ffd409;
+}

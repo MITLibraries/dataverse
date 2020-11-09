@@ -1,0 +1,28 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+                xmlns:jsf="http://xmlns.jcp.org/jsf"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:o="http://omnifaces.org/ui"
+                xmlns:of="http://omnifaces.org/functions"
+                xmlns:iqbs="http://xmlns.jcp.org/jsf/composite/iqbs">
+    <div class="wrap-outer-footer-institute layout-band">
+        <div class="wrap-footer-institute">
+            <div class="footer-info-institute">
+                <a class="link-logo-mit" href="https://www.mit.edu">
+                    <span class="sr">MIT</span>
+                    <img src="/resources/images/mit/mit.svg" alt="MIT logo" />
+                </a>
+                <div class="about-mit">
+                    <span class="item">Massachusetts Institute of Technology</span>
+                </div>
+                <div class="license">Content created by the MIT Libraries, <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> unless otherwise noted. <a href="https://libraries.mit.edu/research-support/notices/copyright-notify/">Notify us about copyright concerns</a>.
+                </div><!-- end .footer-info-institute -->
+            </div>
+        </div>
+    </div>
+    <o:resourceInclude path="/CustomizationFilesServlet?customFileType=footer" rendered="#{!widgetView}"/>
+</ui:composition>

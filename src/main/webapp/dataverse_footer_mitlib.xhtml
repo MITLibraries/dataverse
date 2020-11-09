@@ -1,0 +1,72 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+                xmlns:jsf="http://xmlns.jcp.org/jsf"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:o="http://omnifaces.org/ui"
+                xmlns:of="http://omnifaces.org/functions"
+                xmlns:iqbs="http://xmlns.jcp.org/jsf/composite/iqbs">
+    <div class="wrap-outer-footer layout-band">
+        <div class="wrap-footer footer-slim">
+            <div class="footer-main" aria-label="MIT Libraries footer">
+                <div class="identity">
+                    <div class="wrap-logo-lib">
+                        <a href="https://libraries.mit.edu" class="logo-mit-lib">
+                            <span class="sr">MIT Libraries home</span>
+                            <img src="/resources/images/mit/mitlib-wordmark.svg" alt="MIT Libraries logo" />
+                        </a>
+                    </div>
+                    <div class="wrap-social">
+                        <p class="text-find-us">Find us on</p>
+                        <a href="https://twitter.com/mitlibraries" title="Twitter">
+                            <img src="/resources/images/mit/twitter.svg" alt="Twitter logo" />
+                            <span class="sr">Twitter</span>
+                        </a><!-- End Twitter -->
+                        <a href="https://www.facebook.com/mitlib" title="Facebook">
+                            <img src="/resources/images/mit/facebook.svg" alt="Facebook logo" />
+                            <span class="sr">Facebook</span>
+                        </a><!-- End Facebook -->
+                        
+                        <a href="https://instagram.com/mitlibraries/" title="Instagram">
+                            <img src="/resources/images/mit/instagram.svg" alt="Instagram logo" />
+                            <span class="sr">Instagram</span>
+                        </a><!-- End Instagram -->
+                        
+                        <a href="https://www.youtube.com/user/MITLibraries" title="YouTube">
+                            <img src="/resources/images/mit/youtube.svg" alt="YouTube logo" />
+                            <span class="sr">YouTube</span>
+                        </a><!-- End YouTube -->
+
+                        <a href="https://libguides.mit.edu/mit-feeds" title="RSS">
+                            <img src="/resources/images/mit/rss.svg" alt="RSS logo" />
+                            <span class="sr">RSS</span>
+                        </a><!-- End RSS -->
+                    </div><!-- end .social -->
+                    <div class="wrap-middle">
+                        <div class="wrap-sitemap">
+                            <nav class="sitemap-libraries-abbrev" aria-label="MIT Libraries site menu">
+                                <h2 class="sr">MIT Libraries navigation</h2>
+                                <a class="item" href="https://libraries.mit.edu/search">Search the libraries</a>
+                                <a class="item" href="https://libraries.mit.edu/hours">Hours &amp; locations</a>
+                                <a class="item" href="https://libraries.mit.edu/borrow">Borrow &amp; request</a>
+                                <a class="item" href="https://libraries.mit.edu/research-support">Research support</a>
+                                <a class="item" href="https://libraries.mit.edu/about">About us</a>
+                            </nav>
+                        </div><!-- end .links-all -->
+                        <div class="wrap-policies">
+                            <nav aria-label="MIT Libraries policy menu">
+                                <span class="item"><a href="https://libraries.mit.edu/privacy" class="link-sub">Privacy</a></span>
+                                <span class="item"><a href="https://libraries.mit.edu/permissions" class="link-sub">Permissions</a></span>
+                                <span class="item"><a href="https://libraries.mit.edu/accessibility" class="link-sub">Accessibility</a></span>
+                            </nav>
+                        </div>
+                    </div>
+                </div><!-- end .identity -->
+            </div>
+        </div>
+    </div>
+    <o:resourceInclude path="/CustomizationFilesServlet?customFileType=footer" rendered="#{!widgetView}"/>
+</ui:composition>
