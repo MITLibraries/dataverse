@@ -4,6 +4,9 @@ echo "Installing dependencies for Dataverse"
 # python3 and psycopg2 for the Dataverse installer
 dnf install -qy python3 python3-psycopg2
 
+# install wget because centos 8 does not include it?
+dnf install -qy wget
+
 # Add JQ (TODO: just install this from EPEL?)
 echo "Installing jq for the setup scripts"
 wget -q http://stedolan.github.io/jq/download/linux64/jq
